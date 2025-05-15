@@ -21,4 +21,5 @@ jobs:
           distribution: 'temurin' # Eclipse Temurin is stable and well-supported
 
       - name: Build with Maven
+        working-directory: HashMessage
         run: mvn clean package
